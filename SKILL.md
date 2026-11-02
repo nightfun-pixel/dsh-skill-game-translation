@@ -1,7 +1,7 @@
 ---
-"name: game-translation
-description: Use when asked to translate/localize a game build (APK, archive, or source tree) into another language, including when a prior pass (another model, another tool) claims it is done. Defines the gate that makes "done" mean zero source-script text left anywhere, not "the main pass finished": a mandatory residual-text scan across every layer a game can hide text in, the LLM-batch translation discipline, and container-specific fix recipes for text the obvious scan misses.
-license: MIT"
+name: game-translation
+description: Use when asked to translate/localize a game build (APK, archive, or source tree) into another language, including when a prior pass (another model, another tool) claims it is done. Defines the gate that makes "done" mean zero source-script text left anywhere, not "the main pass finished" - a mandatory residual-text scan across every layer a game can hide text in, the LLM-batch translation discipline, and container-specific fix recipes for text the obvious scan misses.
+license: MIT
 ---
 
 # Game translation
